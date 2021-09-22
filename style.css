@@ -1,21 +1,21 @@
-img:hover{
-    opacity: 0.60;}
+img:hover {
+    opacity: 0.60;
+  }
 
 img{
-    border-radius: 3px;}
+    border-radius: 3px;
+  }
 
 .grey {
     filter: grayscale(100%);
     }  
 
-
-
-.menu{
+.menu {
   /*border: 1px solid red;*/
   padding-left: 0;
 }
 
-.menu li{
+.menu li {
   list-style: none;
   width: 150px;
   height: 30px;
@@ -23,7 +23,7 @@ img{
   text-align:center;
 }
 
-.menu li a{
+.menu li a {
   display:block;
   text-decoration: none;
   color: white;
@@ -31,11 +31,11 @@ img{
   line-height: 30px;
 }
 
-.menu li:hover{
+.menu li:hover { 
    background: darkblue;
    
 }
 
-.menu li:hover a{
+.menu li:hover a {
   color: gray;
 }
