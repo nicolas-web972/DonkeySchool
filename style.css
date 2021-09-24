@@ -2,7 +2,7 @@ main {
   padding: 8px;
 }
 
-footer{
+footer {
   background-color: rgb(32, 32, 32);
   text-align: center;
   color: white;
@@ -55,7 +55,7 @@ img{
   .bandeau {
     display: block;
     width: 100%;
-  }}
+  } }
 
 *{
   margin: 0;
