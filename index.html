@@ -32,10 +32,13 @@
  
     <main>
         <div class="bandeau">
-        <h2>Nicolas CHALONO</h2>
+        <div class="saut">
+        <h2>Nicolas CHALONO</h2></div>
+        <div class="bandeau2">
         <img src="https://via.placeholder.com/350x150" alt="nom"/>
-        </div> <br>  
-        <section>
+        </div></div> <br>  
+        
+        <section class="project">
  
             <h3>PROJETS REALISES</h3>
             
@@ -56,7 +59,7 @@
                 <button>En savoir plus</button>
         </section>
         <br> 
-        <section>
+        <section class="studies">
             <h3>ETUDES</h3>
 
             <img src="https://via.placeholder.com/150" alt="picprofil"/>
@@ -86,7 +89,7 @@
             </div>
         </section>
         <br> 
-        <section>
+        <section class="articles">
             <h3>ARTICLES</h3>
                 <img src="https://via.placeholder.com/300x200" alt="article1"/><br>
                 <h4> Article 1</h4>
@@ -102,31 +105,35 @@
                 <button>Commentaires</button>
         </section>
                 <br>
-        <section>
-            <h3>CONTACT</h3>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                 <li>
-                   <label for="name">Name:</label>
-                   <input type="text" id="name" name="user_name" />
-                 </li>
-                 <li>
-                   <label for="mail">E-mail:</label>
-                   <input type="email" id="mail" name="user_email" />
-                 </li>
-                 <li>
-                   <label for="msg">Message:</label>
-                   <textarea id="msg" name="user_message"></textarea>
-                 </li>
-                </ul>
+        <section id="contact">
+            <div class="saut">
+            <h3>CONTACT</h3></div> <br>
+            <form action="#">
+                <div class="up_down">
+                    <label for="name">Nom et Prénom</label>
+                    <input type="text" name="name" id="name"><br>
+                </div>
+                <div class="up_down">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email"><br>
+                </div>
+                <div class="up_down">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea><br>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Envoyer">
+                </div>
             </form>
         </section>
 
     </main>
 
     <footer>
+    
         <a href="#" title="landingpage">A propos</a>
         <p>Copyright © 2021 monportfolio.com</p>
+        
     </footer>
 
 </body>

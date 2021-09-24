@@ -3,9 +3,12 @@ main {
 }
 
 footer{
-  background-color: grey;
+  background-color: rgb(32, 32, 32);
   text-align: center;
   color: white;
+  text-decoration:none;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
 }
 
 h1 {
@@ -51,6 +54,7 @@ img{
 
   .bandeau {
     display: block;
+    width: 100%;
   }}
 
 *{
@@ -153,6 +157,7 @@ input[type="checkbox"]{
     color: cyan;
   }
 }
+
 .content{
   position: absolute;
   top: 50%;
@@ -168,6 +173,48 @@ input[type="checkbox"]{
   font-size: 40px;
   font-weight: 700;
 }
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.studies {
+  display: flex;
+  flex-direction: column;
+}
+
+.email_phone {
+  display: flex;
+  flex-direction: row;
+}
+
+.studies_dates {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.up_down {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.saut {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 
 /*    
